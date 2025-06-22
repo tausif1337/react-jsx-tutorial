@@ -24,10 +24,21 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  padding: 0;
   min-width: 320px;
   min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#root {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -64,5 +75,24 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+/* Responsive container adjustments */
+@media (max-width: 1240px) {
+  #root {
+    max-width: 95%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  #root {
+    max-width: 100%;
+    padding: 10px;
+  }
+  
+  body {
+    padding: 0;
   }
 }

@@ -45,11 +45,12 @@ const JSXBasics = () => {
       {/* 4. Conditional rendering with ternary operator */}
       <div className="example">
         <h3>4. Conditional Rendering</h3>
-        {currentYear >= 2024 ? (
-          <p style={{ color: 'green' }}>Welcome to the future! 🚀</p>
-        ) : (
+        {currentYear > 2025 ? (
           <p style={{ color: 'orange' }}>Still in the past...</p>
-        )}
+        ) : (
+          <p style={{ color: 'green' }}>Welcome to the future! 🚀</p>
+        )
+        }
       </div>
     </div>
   );

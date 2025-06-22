@@ -96,6 +96,53 @@ const TutorialApp = () => {
             </div>
           </div>
         </div>
+
+        {/* Social Profiles and Copyright */}
+        <div className="social-profiles">
+          <div className="social-links">
+            <a 
+              href="https://github.com/tausif1337" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="social-link"
+            >
+              <span className="social-icon">🐙</span>
+              GitHub
+            </a>
+            <a 
+              href="https://linkedin.com/in/tausif1337" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="social-link"
+            >
+              <span className="social-icon">💼</span>
+              LinkedIn
+            </a>
+            <a 
+              href="https://twitter.com/tausif1337" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="social-link"
+            >
+              <span className="social-icon">🐦</span>
+              Twitter
+            </a>
+            <a 
+              href="https://tausif1337.dev" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="social-link"
+            >
+              <span className="social-icon">🌐</span>
+              Portfolio
+            </a>
+          </div>
+          
+          <div className="copyright">
+            © 2077 <a href="https://tausif1337.dev" target="_blank" rel="noopener noreferrer">@tausif1337</a>. 
+            All rights reserved. Built with ❤️ and React.
+          </div>
+        </div>
       </footer>
     </div>
   );
